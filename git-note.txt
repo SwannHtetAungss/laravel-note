@@ -1,0 +1,12 @@
+git init => ပထမဦးဆုံး ကိုယ့် project မှာ .git repo တခုကို add လိုက်တာ
+git status => ကိုယ့် project ထဲမှာ ရှိတဲ့ file တွေ folder တွေ code တွေကို git add လုပ်ပြီးပြီးလား မလုပ်ရသေးဘူးလား ကြည့်တာ
+git add . => add မလုပ်ရသေးတဲ့ file တွေ folder တွေ code တွေအကုန်လုံးကို add လုပ်တာ
+git commit -m "commit name" => git add လုပ်ပြီးသား file တွေ folder တွေ code တွေ ကို commit name တခုပေးပြီး မှတ်ထားတာ
+git log => မှတ်ထားတဲ့ commit တွေကို ပြန်ကြည့်တာ
+git branch branch-name => branch အသစ်တည်ဆောက်တာ
+git checkout branch-name => ကိုယ်သွားချင်တဲ့ branch ကိုသွားတာ
+git checkout -b branch-name => branch အသစ်တည်ဆောက်ပြီး တခါတည်း အဲဒီ့ branch ကို သွားတာ
+git branch -D branch-name => branch ဖျက်တာ
+git merge branch-name => branch ပေါင်းတာ
+git push -u origin main => github ပေါ်တင်တာ
+git clone repo-link => github ပေါ်က repo ကို download/clone ဆွဲတာ
